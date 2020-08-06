@@ -1,0 +1,254 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+  
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>EDA</title>
+
+   </head>
+  <body>
+
+<script>
+
+function func(){
+ //select the option tags 
+    var vs = $('select  option:selected').val();
+    document.getElementById("iamge").src=vs;
+
+}
+
+</script>
+
+<div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><strong>Covid-19-Prediction</strong></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="nav1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Main page</a></li>
+                <li><a href="/EDA">EDA</a></li>
+                <li><a href="/Government_Measures">Government_Measures</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+
+    <div class="container">
+     
+
+
+
+    
+     <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class = "panel-heading">
+                    <h4 class="text-center">EDA</h4> 
+                </div>
+                         <div class="panel-body">
+                            <select class="form-control" onchange = "func()" id="ist">
+                            <option value="/static/EDA/EDA_Afghanistan.png">Afghanistan</option>
+                            <option value="/static/EDA/EDA_Albania.png">Albania</option>
+                            <option value="/static/EDA/EDA_Algeria.png">Algeria</option>
+                            <option value="/static/EDA/EDA_Andorra.png">Andorra</option>
+                            <option value="/static/EDA/EDA_Angola.png">Angola</option>
+                            <option value="/static/EDA/EDA_Antigua and Barbuda.png">Antigua and Barbuda</option>
+                            <option value="/static/EDA/EDA_Argentina.png">Argentina</option>
+                            <option value="/static/EDA/EDA_Armenia.png">Armenia</option>
+                            <option value="/static/EDA/EDA_Australia.png">Australia</option>
+                            <option value="/static/EDA/EDA_Austria.png">Austria</option>
+                            <option value="/static/EDA/EDA_Azerbaijan.png">Azerbaijan</option>
+                            <option value="/static/EDA/EDA_Bangladesh.png">Bangladesh</option>
+                            <option value="/static/EDA/EDA_Bahrain.png">Bahrain</option>
+                            <option value="/static/EDA/EDA_Bahamas.png">Bahamas</option>
+                            <option value="/static/EDA/EDA_Barbados.png">Barbados</option>
+                            <option value="/static/EDA/EDA_Belarus.png">Belarus</option>
+                            <option value="/static/EDA/EDA_Belgium.png">Belgium</option>
+                            <option value="/static/EDA/EDA_Belize.png">Belize</option>
+                            <option value="/static/EDA/EDA_Benin.png">Benin</option>
+                            <option value="/static/EDA/EDA_Bhutan.png">Bhutan</option>
+                            <option value="/static/EDA/EDA_Bolivia.png">Bolivia</option>
+                            <option value="/static/EDA/EDA_Bosnia and Herzegovina.png">Bosnia and Herzegovina</option>
+                            <option value="/static/EDA/EDA_Botswana.png">Botswana</option>
+                            <option value="/static/EDA/EDA_Brazil.png">Brazil</option>
+                            <option value="/static/EDA/EDA_Brunei.png">Brunei</option>
+                            <option value="/static/EDA/EDA_Bulgaria.png">Bulgaria</option>
+                            <option value="/static/EDA/EDA_Burkina Faso.png">Burkina Faso</option>
+                            <option value="/static/EDA/EDA_Burundi.png">Burundi</option>
+                            <option value="/static/EDA/EDA_Cambodia.png">Cambodia</option>
+                            <option value="/static/EDA/EDA_Cameroon.png">Cameroon</option>
+                            <option value="/static/EDA/EDA_Canada.png">Canada</option>
+                            <option value="/static/EDA/EDA_Central African Republic.png">Central African Republic</option>
+                            <option value="/static/EDA/EDA_Chad.png">Chad</option>
+                            <option value="/static/EDA/EDA_Chile.png">Chile</option>
+                            <option value="/static/EDA/EDA_Colombia.png">Colombia</option>
+                            <option value="/static/EDA/EDA_Costa Rica.png">Costa Rica</option>
+                            <option value="/static/EDA/EDA_China.png">China</option>
+                            <option value="/static/EDA/EDA_Croatia.png">Croatia</option>
+                            <option value="/static/EDA/EDA_Cuba.png">Cuba</option>
+                            <option value="/static/EDA/EDA_Cyprus.png">Cyprus</option>
+                            <option value="/static/EDA/EDA_Denmark.png">Denmark</option>
+                            <option value="/static/EDA/EDA_Djibouti.png">Djibouti</option>
+                            <option value="/static/EDA/EDA_Dominica.png">Dominica</option>
+                            <option value="/static/EDA/EDA_Ecuador.png">Ecuador</option>
+                            <option value="/static/EDA/EDA_Egypt.png">Egypt</option>
+                            <option value="/static/EDA/EDA_Equatorial Guinea.png">Equatorial Guinea</option>
+                            <option value="/static/EDA/EDA_Eritrea.png">Eritrea</option>
+                            <option value="/static/EDA/EDA_Estonia.png">Estonia</option>
+                            <option value="/static/EDA/EDA_Ethiopia.png">Ethiopia</option>
+                            <option value="/static/EDA/EDA_Fiji.png">Fiji</option>
+                            <option value="/static/EDA/EDA_Finland.png">Finland</option>
+                            <option value="/static/EDA/EDA_France.png">France</option>
+                            <option value="/static/EDA/EDA_Gabon.png">Gabon</option>
+                            <option value="/static/EDA/EDA_Gambia.png">Gambia</option>
+                            <option value="/static/EDA/EDA_Georgia.png">Georgia</option>
+                            <option value="/static/EDA/EDA_Germany.png">Germany</option>
+                            <option value="/static/EDA/EDA_Ghana.png">Ghana</option>
+                            <option value="/static/EDA/EDA_Greece.png">Greece</option>
+                            <option value="/static/EDA/EDA_Grenada.png">Grenada</option>
+                            <option value="/static/EDA/EDA_Guatemala.png">Guatemala</option>
+                            <option value="/static/EDA/EDA_Guinea-Bissau.png">Guinea-Bissau</option>
+                            <option value="/static/EDA/EDA_Guinea.png">Guinea</option>
+                            <option value="/static/EDA/EDA_Guyana.png">Guyana</option>
+                            <option value="/static/EDA/EDA_Haiti.png">Haiti</option>
+                            <option value="/static/EDA/EDA_Honduras.png">Honduras</option>
+                            <option value="/static/EDA/EDA_Hungary.png">Hungary</option>
+                            <option value="/static/EDA/EDA_Iceland.png">Iceland</option>
+                            <option value="/static/EDA/EDA_India.png">India</option>
+                            <option value="/static/EDA/EDA_Indonesia.png">Indonesia</option>
+                            <option value="/static/EDA/EDA_Iran.png">Iran</option>
+                            <option value="/static/EDA/EDA_Iraq.png">Iraq</option>
+                            <option value="/static/EDA/EDA_Ireland.png">Ireland</option>
+                            <option value="/static/EDA/EDA_Israel.png">Israel</option>
+                            <option value="/static/EDA/EDA_Italy.png">Italy</option>
+                            <option value="/static/EDA/EDA_Jamaica.png">Jamaica</option>
+                            <option value="/static/EDA/EDA_Japan.png">Japan</option>
+                            <option value="/static/EDA/EDA_Jordan.png">Jordan</option>
+                            <option value="/static/EDA/EDA_Kazakhstan.png">Kazakhstan</option>
+                            <option value="/static/EDA/EDA_Kenya.png">Kenya</option>
+                            <option value="/static/EDA/EDA_Kuwait.png">Kuwait</option>
+                            <option value="/static/EDA/EDA_Kyrgyzstan.png">Kyrgyzstan</option>
+                            <option value="/static/EDA/EDA_Laos.png">Laos</option>
+                            <option value="/static/EDA/EDA_Latvia.png">Latvia</option>
+                            <option value="/static/EDA/EDA_Lebanon.png">Lebanon</option>
+                            <option value="/static/EDA/EDA_Liberia.png">Liberia</option>
+                            <option value="/static/EDA/EDA_Libya.png">Libya</option>
+                            <option value="/static/EDA/EDA_Liechtenstein.png">Liechtenstein</option>
+                            <option value="/static/EDA/EDA_Lithuania.png">Lithuania</option>
+                            <option value="/static/EDA/EDA_Luxembourg.png">Luxembourg</option>
+                            <option value="/static/EDA/EDA_Malaysia.png">Malaysia</option>
+                            <option value="/static/EDA/EDA_Madagascar.png">Madagascar</option>
+                            <option value="/static/EDA/EDA_Maldives.png">Maldives</option>
+                            <option value="/static/EDA/EDA_Mali.png">Mali</option>
+                            <option value="/static/EDA/EDA_Malta.png">Malta</option>
+                            <option value="/static/EDA/EDA_Mauritania.png">Mauritania</option>
+                            <option value="/static/EDA/EDA_Mauritius.png">Mauritius</option>
+                            <option value="/static/EDA/EDA_Mexico.png">Mexico</option>
+                            <option value="/static/EDA/EDA_Moldova.png">Moldova</option>
+                            <option value="/static/EDA/EDA_Monaco.png">Monaco</option>
+                            <option value="/static/EDA/EDA_Mongolia.png">Mongolia</option>
+                            <option value="/static/EDA/EDA_Montenegro.png">Montenegro</option>
+                            <option value="/static/EDA/EDA_Morocco.png">Morocco</option>
+                            <option value="/static/EDA/EDA_Mozambique.png">Mozambique</option>
+                            <option value="/static/EDA/EDA_Namibia.png">Namibia</option>
+                            <option value="/static/EDA/EDA_Nepal.png">Nepal</option>
+                            <option value="/static/EDA/EDA_Netherlands.png">Netherlands</option>
+                            <option value="/static/EDA/EDA_New Zealand.png">New Zealand</option>
+                            <option value="/static/EDA/EDA_Nicaragua.png">Nicaragua</option>
+                            <option value="/static/EDA/EDA_Niger.png">Niger</option>
+                            <option value="/static/EDA/EDA_Nigeria.png">Nigeria</option>
+                            <option value="/static/EDA/EDA_Norway.png">Norway</option>
+                            <option value="/static/EDA/EDA_Oman.png">Oman</option>
+                            <option value="/static/EDA/EDA_Pakistan.png">Pakistan</option>
+                            <option value="/static/EDA/EDA_Panama.png">Panama</option>
+                            <option value="/static/EDA/EDA_Papua New Guinea.png">Papua New Guinea</option>
+                            <option value="/static/EDA/EDA_Paraguay.png">Paraguay</option>
+                            <option value="/static/EDA/EDA_Peru.png">Peru</option>
+                            <option value="/static/EDA/EDA_Philippines.png">Philippines</option>
+                            <option value="/static/EDA/EDA_Poland.png">Poland</option>
+                            <option value="/static/EDA/EDA_Portugal.png">Portugal</option>
+                            <option value="/static/EDA/EDA_Qatar.png">Qatar</option>
+                            <option value="/static/EDA/EDA_Romania.png">Romania</option>
+                            <option value="/static/EDA/EDA_Rwanda.png">Rwanda</option>
+                            <option value="/static/EDA/EDA_Saint Lucia.png">Saint Lucia</option>
+                            <option value="/static/EDA/EDA_Saint Vincent and the Grenadines.png">Saint Vincent and the Grenadines</option>
+                            <option value="/static/EDA/EDA_El Salvador.png">El Salvador</option>
+                            <option value="/static/EDA/EDA_San Marino.png">San Marino</option>
+                            <option value="/static/EDA/EDA_Saudi Arabia.png">Saudi Arabia</option>
+                            <option value="/static/EDA/EDA_Senegal.png">Senegal</option>
+                            <option value="/static/EDA/EDA_Seychelles.png">Seychelles</option>
+                            <option value="/static/EDA/EDA_Sierra Leone.png">Sierra Leone</option>
+                            <option value="/static/EDA/EDA_Singapore.png">Singapore</option>
+                            <option value="/static/EDA/EDA_Serbia.png">Serbia</option>
+                            <option value="/static/EDA/EDA_Slovakia.png">Slovakia</option>
+                            <option value="/static/EDA/EDA_Slovenia.png">Slovenia</option>
+                            <option value="/static/EDA/EDA_Somalia.png">Somalia</option>
+                            <option value="/static/EDA/EDA_South Africa.png">South Africa</option>
+                            <option value="/static/EDA/EDA_Spain.png">Spain</option>
+                            <option value="/static/EDA/EDA_Sri Lanka.png">Sri Lanka</option>
+                            <option value="/static/EDA/EDA_Sudan.png">Sudan</option>
+                            <option value="/static/EDA/EDA_Suriname.png">Suriname</option>
+                            <option value="/static/EDA/EDA_Sweden.png">Sweden</option>
+                            <option value="/static/EDA/EDA_Switzerland.png">Switzerland</option>
+                            <option value="/static/EDA/EDA_Syria.png">Syria</option>
+                            <option value="/static/EDA/EDA_Tanzania.png">Tanzania</option>
+                            <option value="/static/EDA/EDA_Thailand.png">Thailand</option>
+                            <option value="/static/EDA/EDA_Trinidad and Tobago.png">Trinidad and Tobago</option>
+                            <option value="/static/EDA/EDA_Timor-Leste.png">Timor-Leste</option>
+                            <option value="/static/EDA/EDA_Togo.png">Togo</option>
+                            <option value="/static/EDA/EDA_Tunisia.png">Tunisia</option>
+                            <option value="/static/EDA/EDA_Turkey.png">Turkey</option>
+                            <option value="/static/EDA/EDA_Uganda.png">Uganda</option>
+                            <option value="/static/EDA/EDA_Ukraine.png">Ukraine</option>
+                            <option value="/static/EDA/EDA_United Arab Emirates.png">United Arab Emirates</option>
+                            <option value="/static/EDA/EDA_United Kingdom.png">United Kingdom</option>
+                            <option value="/static/EDA/EDA_Uruguay.png">Uruguay</option>
+                            <option value="/static/EDA/EDA_Uzbekistan.png">Uzbekistan</option>
+                            <option value="/static/EDA/EDA_Venezuela.png">Venezuela</option>
+                            <option value="/static/EDA/EDA_Vietnam.png">Vietnam</option>
+                            <option value="/static/EDA/EDA_Zambia.png">Zambia</option>
+                            <option value="/static/EDA/EDA_Zimbabwe.png">Zimbabwe</option>
+                            </select>
+                            <div class="col-md-12">
+                                    <img src="/static/Germany.png" alt="..." class="img-responsive center-block" id = "iamge">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div> <!-- /container -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
